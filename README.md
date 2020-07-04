@@ -1,4 +1,4 @@
 # Web Projects
 Web Projects
 
-Detailing web projects including apps and websites 
+Detailing my web projects including apps and websites throughout learning and career. 
