@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta-charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice </title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src ="js/app.js"></script>
+</head>
+<body>
+<!-- Fixed header, user input and add button -->
+    <container>       
+    <div id="addNumber" class="header">
+        <h1>Java Script Array Math</h1>
+        <p>Add as many numbers as you like.  </p> 
+            <div class="innerdiv">
+            <input type="number" min="0" id="numberInput" placeholder ="Enter Numbers Here"></input>
+                <button onclick="numberPush();" class="smallBtn">Add</button>
+                <button onclick="clearArray();" class="smallBtn">Clear</button>
+            <p id ="arrayValues"></p>
+            </div>
+        </div> 
+    </container> 
+     <!-- declare the content class            -->
+    <div class="content">
+
+        <!-- max number text and button -->
+        <div id="maxNumberButton" class="header2">
+        <p>Click the Max Number button to calculate the Max number. </p>
+            <button onclick="maxNumber()" class="btn">Max Number</button>
+        <p id="maxNumber"></p>
+        </div>
+        <div class="imgMax">  
+        </div>
+        <!-- Minimum number text and button -->
+        <div id="minNumberButton" class="divContent">
+        <p>Click the Min Number button to calculate the Minimum number. </p>
+            <button onclick="minNumber()" class="btn">Min Number</button>
+        <p id="minNumber"></p>
+        </div>
+        <div class="imgMin">
+        </div>
+        <!-- Sum text and button -->
+        <div id="arraySumButton" class="divContent">
+        <p>Click the Sum button to get the Sum of the Numbers you chose.</p>
+            <button onclick="sum()" class="btn">Sum</button>
+            <p id ="arraySum"></p>
+        </div>
+        <div class="imgSum">   
+        </div>
+
+       
+    </div>
+
+</body>
+
+
+
+</html>
